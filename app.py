@@ -13,6 +13,9 @@ from langchain_openai.chat_models import ChatOpenAI #Cette bibliothèque permet 
 from langchain_openai.embeddings import OpenAIEmbeddings #Cette bibliothèque permet d'utiliser des modèles d'embeddings OpenAI pour convertir du texte en vecteurs d'embeddings sémantiques
 
 load_dotenv()
+
+
+
 # os.getenv("GOOGLE_API_KEY")
 # genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 os.environ['OPENAI_API_KEY']=os.getenv("OPENAI_API_KEY")
